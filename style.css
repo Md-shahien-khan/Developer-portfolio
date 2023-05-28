@@ -14,32 +14,37 @@ h1{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 100px;
     
 }
 .half-width{
     width: 80%;
     padding-left: 7%;
     margin-top: 70px;
+    padding-right: 7%;
     
 }
 .half-width img{
-    width: 70%;
+    width: 90%;
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(236, 231, 221), tomato);
+    background-image: linear-gradient(rgb(233, 67, 37),rgb(247, 160, 79));
     padding: 10px 40px;
     border-radius: 5%;
     color: white;
     font-size: 20px;
 }
-.button:hover{
-    background-color: rgb(240, 25, 25);
-}
+
 p{
     font-size: 20px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
