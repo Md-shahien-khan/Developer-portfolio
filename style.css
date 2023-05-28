@@ -1,50 +1,88 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
-    
+
 }
-h1{
-    font-size: 40px;
+
+h1 {
+    font-size: 50px;
 }
-.middle-part{
+
+.middle-part {
     color: rgb(255, 68, 0);
 }
-.flexible-container{
+
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
-    
+
 }
-.half-width{
+
+.half-width {
     width: 80%;
     padding-left: 7%;
     margin-top: 70px;
     padding-right: 7%;
-    
+
 }
-.half-width img{
+
+.half-width img {
     width: 90%;
 }
-.button{
+
+.button {
     text-decoration: none;
-    background-image: linear-gradient(rgb(233, 67, 37),rgb(247, 160, 79));
+    background-image: linear-gradient(rgb(233, 67, 37), rgb(247, 160, 79));
     padding: 10px 40px;
     border-radius: 5%;
     color: white;
     font-size: 20px;
 }
 
-p{
+p {
     font-size: 20px;
 }
-.top-banner{
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.second-banner{
+
+.second-banner {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.third-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.experince-item {
+    height: 300px;
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-left: 7px solid blue;
+    
+}
+
+#extra{
+    border-left: 7px solid rgb(238, 89, 35);
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
 }
