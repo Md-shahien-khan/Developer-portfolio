@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1{
+    font-size: 40px;
+}
+.middle-part{
+    color: rgb(255, 68, 0);
+}
+.flexible-container{
+    display: flex;
+    
+}
+.half-width{
+    width: 80%;
+    padding-left: 7%;
+    margin-top: 70px;
+    
+}
+.half-width img{
+    width: 70%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(236, 231, 221), tomato);
+    padding: 10px 40px;
+    border-radius: 5%;
+    color: white;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: rgb(240, 25, 25);
+}
+p{
+    font-size: 20px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
